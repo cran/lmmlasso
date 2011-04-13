@@ -1,0 +1,8 @@
+export(lmmlasso)
+
+exportMethods(show,residuals,coefficients,coef,fitted,fitted.values)
+
+S3method(lmmlasso, default)
+S3method(plot, lmmlasso)
+S3method(print, lmmlasso)
+S3method(summary, lmmlasso)
